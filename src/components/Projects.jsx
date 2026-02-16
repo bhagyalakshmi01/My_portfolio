@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Projects.css";
+import "./projects.css";
 import supabase from "../supabase";
 
 import weatherImg from "../assets/weather.png";
