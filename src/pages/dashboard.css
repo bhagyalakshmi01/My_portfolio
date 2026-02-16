@@ -1,0 +1,123 @@
+/* ===== PAGE ===== */
+.dashboard {
+  background: linear-gradient(180deg, #0b1220, #070c16);
+  min-height: 100vh;
+  padding: 40px;
+  color: #e5e7eb;
+  font-family: Inter, sans-serif;
+}
+
+/* ===== HEADER ===== */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.topbar h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* small underline glow */
+.topbar h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-top: 6px;
+  background: linear-gradient(90deg, #6366f1, #3b82f6);
+  border-radius: 10px;
+}
+
+/* ===== LOGOUT ===== */
+.logout {
+  background: #ef4444;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.logout:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== WELCOME ===== */
+.welcome {
+  margin-top: 20px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  padding: 22px;
+  border-radius: 14px;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  margin-top: 24px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  padding: 22px;
+  border-radius: 14px;
+}
+
+/* ===== INPUT ===== */
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  background: #0b1220;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* ===== PRIMARY BUTTON ===== */
+.primary-btn {
+  background: linear-gradient(90deg, #6366f1, #3b82f6);
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== LIST ===== */
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #1f2937;
+}
+
+/* ===== DELETE ===== */
+.delete {
+  background: #ef4444;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}

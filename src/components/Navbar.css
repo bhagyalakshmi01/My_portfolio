@@ -1,0 +1,53 @@
+/* ===== Remove old horizontal navbar ===== */
+.navbar {
+  display: none;
+}
+
+/* ===== Hamburger icon ===== */
+.menu-toggle {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -260px;   /* hidden */
+  width: 250px;
+  height: 100vh;
+
+  background: #0f172a;
+  padding-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+/* when open */
+.sidebar.open {
+  left: 0;
+}
+
+/* links */
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+
+.sidebar a:hover {
+  background: #1e293b;
+  padding-left: 25px;
+}
