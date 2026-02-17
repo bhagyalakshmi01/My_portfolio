@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 import AdminLogin from "./pages/AdminLogin";
 import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Chatbot from "./src/Chatbot";
+import AIAssistant from "./components/AIAssistant";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
                 <Hero />
                 <Skills />
                 <Projects />
-                <Chatbot />
+                <AIAssistant />
                 <Contact />
               </>
             }
